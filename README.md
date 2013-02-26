@@ -4,11 +4,11 @@ This simple plugin for ReSharper allows you to use StyleCop friendly comments fo
 
 Unfortunately, ReSharper doesn't like you using four slashes when suppressing warnings, so you can't use this style of comment to suppress warnings. With this plugin, ReSharper allows four slashes. Like this:
 
-``
+<pre>
 //// resharper disable InconsistentNaming
     var _sausages = GetSausages();
 //// resharper restore InconsistentNaming
-``
+</pre>
 
 Note that you can't mix and match styles. If you disable a warning with a comment with four slashes, you must use four slashes to restore the warning.
 
